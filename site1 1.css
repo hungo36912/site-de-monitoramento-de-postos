@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#endereco-usuario {
+    font-weight: bold;
+    background-color: #008550;
+    color: #71ff5f;
+    padding: 10px;
+}
+
+#postos-saude {
+    background-color: #03948d;
+    color: #002516;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info-posto-saude{
+    border: 10px solid red;
+}
+
+footer {
+    background-color: #002516;
+    color: #0fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f27c;
+}
