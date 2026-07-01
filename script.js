@@ -10,6 +10,27 @@ function calcularDistancia(localUsuario, postoSaude) {
     return Math.abs(localUsuario.distancia - postoSaude.distancia);
 }
 
+
+$(document).ready(function(){
+    $("#infoPostoSaude").on("click", function() {
+        $(this).animate({
+            left:'',
+            opacity:'',
+            height:'',
+            width:''
+
+        }, 1000, function() {
+            $(this).animate({
+                left:'',
+                opacity:'',
+                height:'',
+                width:''
+            }, 1000);
+        });
+    });
+});
+                                                                                     
+
 // Função para exibir a lista de postos de saúde
 function exibirPostosSaude(localUsuario) {
     const postosSaudeContainer = document.getElementById("postos-saude");
