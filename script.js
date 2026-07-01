@@ -10,6 +10,11 @@ function calcularDistancia(localUsuario, postoSaude) {
     return Math.abs(localUsuario.distancia - postoSaude.distancia);
 }
 
+$(document).ready(function() {
+    $("#bnt_1_localUsuario").click(function() 
+        
+    });
+});
 
 $(document).ready(function(){
     $("#infoPostoSaude").on("click", function() {
