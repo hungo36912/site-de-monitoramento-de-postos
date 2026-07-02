@@ -11,13 +11,13 @@ function calcularDistancia(localUsuario, postoSaude) {
 }
 
 $(document).ready(function() {
-    $("#bnt_1_localUsuario").click(function() {
-        $("localUsuario").hide();
+    $("#bnt_1_local-usuario").click(function() {
+        $("local-usuario").hide();
         
     });
 
-    $("#bnt_2_localUsuario").click(function() {
-        $("localUsuario").show();
+    $("#bnt_2_local-usuario").click(function() {
+        $("local-usuario").show();
         
     });
 });
